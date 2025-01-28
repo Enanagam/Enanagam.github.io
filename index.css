@@ -1,0 +1,147 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E8F5F2;  /* Fondo suave */
+    color: #3C6E47;  /* Texto en verde oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    color: #3C6E47;
+    text-align: center;
+}
+
+h1.menu {
+    font-size: 2.5rem;
+    color: #3C6E47;
+    margin-top: 20px;
+}
+
+h4.tra {
+    font-size: 1.1rem;
+    padding: 20px;
+    margin: 0 10%;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.tit {
+    font-size: 1.5rem;
+    background-color: rgb(243, 242, 188);
+}
+
+.ttt {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
+    grid-auto-rows: minmax(100px, auto);
+    font-size: 1rem;
+    
+}
+.nav {
+    background-color: #66C2A5;  /* Fondo verde claro */
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+nav ul li a:hover {
+    color: #FFB88C;  /* Color de acento al pasar el ratón */
+}
+
+/* Secciones */
+section.med, section.sec, section.cuadro {
+    padding: 20px;
+    margin: 10px 5%;
+    background-color: #F5F1E1;  /* Fondo claro */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+section.med h2, section.sec h2 {
+    font-size: 1.8rem;
+    color: #3C6E47;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section.cuadro {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Calculadora de Emisiones */
+.container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.container button {
+    padding: 10px 20px;
+    background-color: #FFB88C;  /* Naranja suave */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #66C2A5;  /* Verde claro */
+}
+
+/* Soluciones con Tecnologías */
+section ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+/*
+
+/* Footer */
+footer {
+    background-color: #3C6E47;  /* Verde oscuro */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+
+
