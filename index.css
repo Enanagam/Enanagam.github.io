@@ -1,0 +1,185 @@
+/* Estilos base */
+body {
+    font-family: cursive;
+    background-color: #F0FAF8;
+    color: #3C6E47;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    color: #2E7D32;
+    text-align: center;
+}
+
+h1.menu {
+    font-size: 2.8rem;
+    margin: 30px 0 10px;
+}
+
+h4.tra {
+    font-size: 1.1rem;
+    padding: 20px;
+    margin: 0 10%;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.tit {
+    font-size: 1.6rem;
+    background-color: #FFF9C4;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+/* Menú de navegación */
+.nav {
+    background-color: #66C2A5;  /* Fondo verde claro */
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+nav ul li a:hover {
+    color: #FFB88C;  /* Color de acento al pasar el ratón */
+}
+/* Secciones generales */
+section.med, section.sec, section.cuadro {
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 85%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Grilla de contaminación */
+.ttt {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.ttt div {
+    background-color: #C8E6C9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+.ttt div:hover {
+    transform: scale(1.05);
+}
+
+/* Imagen */
+section img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Calculadora de Emisiones */
+.container {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #E0F2F1;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.container input {
+    padding: 12px;
+    margin: 10px;
+    font-size: 1rem;
+    border: 1px solid #B2DFDB;
+    border-radius: 6px;
+    width: 40%;
+}
+
+.container button {
+    padding: 10px 25px;
+    background-color: #4DB6AC;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.container button:hover {
+    background-color: #00796B;
+}
+
+/* Lista de tecnologías */
+section ul {
+    list-style-type: square;
+    padding-left: 25px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+/* Empresas */
+#empre {
+    text-align: center;
+    background-color: #F1F8E9;
+    color: #388E3C;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px auto;
+    max-width: 90%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+}
+
+#empre b {
+    color: #2E7D32;
+}
+
+p img {
+    width: 100px;
+    height: auto;
+    float: right;
+    margin-left: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+p img.align-left {
+    float: left;
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+p::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+footer {
+    background-color: #2E7D32;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.95rem;
+    margin-top: 40px;
+}
